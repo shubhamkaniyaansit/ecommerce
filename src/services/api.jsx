@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API_URL =
   import.meta.env.VITE_API_URL ||
-  "https://ecommercetest-iota.vercel.app/ecommerce-api-production-f1c1.up.railway.app/api";
+  "https://ecommerce-api-production-f1c1.up.railway.app/api";
 
 const api = axios.create({
   baseURL: API_URL,
